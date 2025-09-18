@@ -10,12 +10,25 @@ namespace elagazasok
     {
         static void Main(string[] args)
         {
+            //1.feladat
             Console.Write("Kérlek adj meg egy számot: ");
             int szam = int.Parse(Console.ReadLine());
             if (szam % 2 == 0)
                 Console.WriteLine("Páros");
             else
                 Console.WriteLine("Páratlan");
+            Console.ReadLine();
+            //2. feladat
+            Console.WriteLine("Kérlek adj meg egy számot: ");
+            int szam1 = int.Parse(Console.ReadLine());
+            if (szam1 > 0)
+                Console.WriteLine("Pozitív");
+            else if (szam1 < 0)
+                Console.WriteLine("Negatív");
+            else
+                Console.WriteLine("Nulla");
+
+            //3.feladat
 
         }
     }
