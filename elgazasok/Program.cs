@@ -91,6 +91,20 @@ namespace elagazasok
                 Console.WriteLine("Helyes jelszó");
             else
                 Console.WriteLine("Helytelen jelszó");
+            //10. feladat
+            Console.WriteLine("Kérlek adj meg egy számot: ");
+            int szam4 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Kérlek adj még egy számot: ");
+            int szam5 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Kérlek adj meg egy harmadik számot: ");
+            int szam6 = int.Parse(Console.ReadLine());
+            if (szam4 > szam5 && szam4 > szam6)
+                Console.WriteLine("A legnagyobb szám a" + " " + szam4);
+            else if (szam5 > szam4 && szam5 > szam6)
+                Console.WriteLine("A legnagyobb szám a" + " " + szam5);
+            else
+                Console.WriteLine("A legnagyobb szám a" + " " + szam6);
+
 
 
         }
