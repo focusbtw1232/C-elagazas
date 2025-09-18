@@ -68,7 +68,13 @@ namespace elagazasok
             else
                 Console.WriteLine("Gratulálok eltaláltad");
             //7.feladat
-
+            Console.WriteLine("Adj meg egy számot: ");
+            int jo = int.Parse(Console.ReadLine());
+            if (jo > 0 && jo % 2 == 0)
+                Console.WriteLine("A szám pozitív és páros");
+            else
+                Console.WriteLine("A szám nem pozitív és nem páros");
+            //8.feladat
 
 
         }
