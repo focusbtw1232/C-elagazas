@@ -57,6 +57,17 @@ namespace elagazasok
                 Console.WriteLine("A jegyed jó");
             else
                 Console.WriteLine("A jegyed jeles");
+            //6.feladat 
+            Console.WriteLine("Találd ki melyik számra gondoltam: ");
+            int kitalal = int.Parse(Console.ReadLine());
+            int kitalalt = 20;
+            if (kitalal > kitalalt)
+                Console.WriteLine("A szám amire gondoltam kisebb");
+            else if (kitalal < kitalalt)
+                Console.WriteLine("A szám amire gondoltam nagyobb");
+            else
+                Console.WriteLine("Gratulálok eltaláltad");
+
 
 
         }
