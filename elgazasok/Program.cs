@@ -83,6 +83,14 @@ namespace elagazasok
                 Console.WriteLine("Ez egy betű");
             else
                 Console.WriteLine("Ez se nem szám se nem betű");
+            //9.feladat
+            string jelszo = "titok123";
+            Console.WriteLine("Add meg a jelszót: ");
+            string jelszokitalalas = Console.ReadLine();
+            if (jelszokitalalas == jelszo)
+                Console.WriteLine("Helyes jelszó");
+            else
+                Console.WriteLine("Helytelen jelszó");
 
 
         }
