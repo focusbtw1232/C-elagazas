@@ -29,6 +29,24 @@ namespace elagazasok
                 Console.WriteLine("Nulla");
 
             //3.feladat
+            Console.WriteLine("Add meg a hónap sorszámát: ");
+            int honap = int.Parse(Console.ReadLine());
+            if (honap >= 3 && honap <= 5)
+                Console.WriteLine("Tavasz");
+            else if (honap >= 6 && honap <= 8)
+                Console.WriteLine("Nyár");
+            else if (honap >= 9 && honap <= 11)
+                Console.WriteLine("Ősz");
+            else
+                Console.WriteLine("Tél");
+            //4.feladat
+            Console.WriteLine("Add meg az életkorodat: ")
+            int eletkor = int.Parse(Console.ReadLine());
+            if (eletkor >= 18)
+                Console.WriteLine("Már szavazhatsz");
+            else
+                Console.WriteLine("Még nem szavazhatsz");
+            
 
         }
     }
