@@ -40,7 +40,7 @@ namespace elagazasok
             else
                 Console.WriteLine("Tél");
             //4.feladat
-            Console.WriteLine("Add meg az életkorodat: ")
+            Console.WriteLine("Add meg az életkorodat: ");
             int eletkor = int.Parse(Console.ReadLine());
             if (eletkor >= 18)
                 Console.WriteLine("Már szavazhatsz");
@@ -67,6 +67,7 @@ namespace elagazasok
                 Console.WriteLine("A szám amire gondoltam nagyobb");
             else
                 Console.WriteLine("Gratulálok eltaláltad");
+            //7.feladat
 
 
 
