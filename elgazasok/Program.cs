@@ -46,7 +46,18 @@ namespace elagazasok
                 Console.WriteLine("Már szavazhatsz");
             else
                 Console.WriteLine("Még nem szavazhatsz");
-            
+            //5.feladat
+            Console.WriteLine("Add meg a jegyed: ");
+            int jegy = int.Parse(Console.ReadLine());
+            if (jegy < 3)
+                Console.WriteLine("A jegyed elégtelen");
+            else if (jegy == 3)
+                Console.WriteLine("A jegyed elégséges");
+            else if (jegy == 4)
+                Console.WriteLine("A jegyed jó");
+            else
+                Console.WriteLine("A jegyed jeles");
+
 
         }
     }
